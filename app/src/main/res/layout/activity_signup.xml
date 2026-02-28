@@ -24,7 +24,7 @@
             android:textColor="#F5F5F5"
             android:layout_marginBottom="8dp"/>
 
-        <!-- Full Name -->
+        <!-- Full name -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
                 android:textColorHint="#CCCCCC"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Confirm Password -->
+        <!-- Confirm password -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                 android:textColorHint="#CCCCCC"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Signup Button -->
+        <!-- Signup button -->
         <Button
             android:id="@+id/btnSignup"
             android:layout_width="231dp"
@@ -125,7 +125,7 @@
             android:text="@string/btn_create_account"
             android:textSize="16sp" />
 
-        <!-- Go to Login -->
+        <!-- Go to login -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

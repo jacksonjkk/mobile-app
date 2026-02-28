@@ -8,14 +8,14 @@
     android:padding="32dp"
     android:background="#1A1A2E">
 
-    <!-- App Logo / Title -->
+    <!-- welcome messege -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome Back"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:textColor="#1A1A2E"
+        android:textColor="#ffffff"
         android:layout_marginBottom="8dp"/>
 
     <TextView
@@ -26,7 +26,7 @@
         android:textColor="#888888"
         android:layout_marginBottom="40dp"/>
 
-    <!-- Email Field -->
+    <!-- Email -->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
             android:inputType="textEmailAddress"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Password Field -->
+    <!-- Password-->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,17 +58,17 @@
             android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Login Button -->
+    <!-- Loggin-->
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="190dp"
         android:layout_height="63dp"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#4F46E5"
+        android:backgroundTint="#f9f9f9"
         android:text="LOG IN"
         android:textSize="16sp" />
 
-    <!-- Go to Signup -->
+    <!-- Go to Signup  link-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

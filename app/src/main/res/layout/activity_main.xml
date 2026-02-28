@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Profile Card (No image, just name and bio) -->
+    <!-- name and bio card -->
     <androidx.cardview.widget.CardView
         android:id="@+id/profile_card"
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
         android:layout_marginEnd="24dp"
         android:padding="24dp"/>
 
-    <!-- Main Card Content -->
+    <!-- profile card -->
     <androidx.cardview.widget.CardView
         android:id="@+id/main_card"
         android:layout_width="0dp"
@@ -68,14 +68,14 @@
                 android:textColor="#4A4E69"
                 android:textSize="16sp" />
 
-            <!-- Divider -->
+            <!-- section divider -->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginBottom="12dp"
                 android:background="#E0E0E0" />
 
-            <!-- Skills Section -->
+            <!-- Skills Section-->
             <TextView
                 android:id="@+id/tvSkillsTitle"
                 android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <!-- Divider -->
+            <!-- section divider -->
             <TextView
                 android:id="@+id/tvSkills"
                 android:layout_width="wrap_content"
@@ -103,7 +103,7 @@
                 android:layout_marginBottom="12dp"
                 android:background="#E0E0E0" />
 
-            <!-- Projects Section -->
+            <!-- Projects section -->
             <TextView
                 android:id="@+id/tvProjectsTitle"
                 android:layout_width="wrap_content"
@@ -123,7 +123,7 @@
                 android:textColor="#22223B"
                 android:textSize="15sp" />
 
-            <!-- Divider -->
+            <!-- sction divider -->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -131,7 +131,7 @@
                 android:layout_marginBottom="12dp"
                 android:background="#E0E0E0" />
 
-            <!-- Contact Section -->
+            <!-- Contact section -->
             <TextView
                 android:id="@+id/tvContactTitle"
                 android:layout_width="wrap_content"
