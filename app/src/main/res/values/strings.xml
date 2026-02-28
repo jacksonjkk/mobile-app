@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">portifolio</string>
+    <string name="create_account">Create Account</string>
+    <string name="signup_subtitle">Sign up to get started</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_Reg.no">Reg.no</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_create_account">CREATE ACCOUNT</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login">Log In</string>
+    <string name="profile_image_desc">Profile image</string>
+    <string name="portfolio_name">Kansiime Jackson</string>
+    <string name="portfolio_bio">just started mobile app development. </string>
+    <string name="skills_title">Skills</string>
+    <string name="skills_list">• Java\n•UI/UX Design\n•python\n•php</string>
+    <string name="projects_title">Projects</string>
+    <string name="projects_list">• web apps: stellar multisig wallet app\n• mobile apps: this is my first </string>
+    <string name="contact_title">Contact</string>
+    <string name="contact_info">Email: jackjunior301010@gmail.com\nGitHub: github.com/jacksonjkk</string>
+</resources>
